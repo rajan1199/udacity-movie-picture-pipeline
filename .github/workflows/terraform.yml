@@ -34,7 +34,7 @@ jobs:
       - name: Terraform Plan
         working-directory: setup/terraform
         run: terraform plan 
-        continue-on-error: true
+        # continue-on-error: true
 
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
