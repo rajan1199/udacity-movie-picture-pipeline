@@ -9,6 +9,7 @@ on:
 jobs:
   Linting:
     runs-on: ubuntu-latest
+    environment: Development Environment
 
     steps:
     - name: Checkout the Repository
