@@ -37,7 +37,7 @@ jobs:
         # continue-on-error: true
 
       - name: Terraform Apply
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
         working-directory: setup/terraform
         run: terraform apply -auto-approve tfplan
 
