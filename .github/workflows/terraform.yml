@@ -33,13 +33,13 @@ jobs:
 
       - name: Terraform Plan
         working-directory: setup/terraform
-        run: terraform plan 
+        run: terraform plan -out=tfplan
         # continue-on-error: true
 
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         working-directory: setup/terraform
-        run: terraform apply -auto-approve
+        run: terraform apply -auto-approve tfplan
 
       # - name: Terraform Destroy
       #   run:  terraform plan -destroy
