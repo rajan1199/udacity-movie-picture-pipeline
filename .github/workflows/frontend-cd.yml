@@ -87,10 +87,13 @@ jobs:
       env:
         IMAGE_TAG: latest
         REPO_NAME: frontend
+        REACT_APP_MOVIE_API_URL: ${{ secrets.REACT_APP_MOVIE_API_URL }}
       run: |
-        docker build --build-arg REACT_APP_MOVIE_API_URL="http://https://a7fda3f84fc6d4502b452fbf9d31c1f1-193816440.us-east-1.elb.amazonaws.com/" --tag 007985904269.dkr.ecr.us-east-1.amazonaws.com/$REPO_NAME:$IMAGE_TAG .
+        docker build \
+            --build-arg=REACT_APP_MOVIE_API_URL="http://$REACT_APP_MOVIE_API_URL/" \
+            -t $IMAGE_NAME:${GITHUB_SHA::7} \
+            .
         docker push 007985904269.dkr.ecr.us-east-1.amazonaws.com/$REPO_NAME:$IMAGE_TAG
-    
 
     - name: Configure Kubeconfig
       run:
