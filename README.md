@@ -1,6 +1,24 @@
 # Movie Picture Pipeline
 
+All the 4 workflows are present in .github/workflows directory:
+![image](https://github.com/user-attachments/assets/c3963db7-ab8d-416b-af14-2e5a3128eaa7)
+
+![image](https://github.com/user-attachments/assets/4ace60fd-2398-420e-ac42-b23d0017de47)
+
 ## Screenshots
+
+### Frontend Continuous Integration
+![image](https://github.com/user-attachments/assets/f0c058a7-9da0-4199-a922-5b0bd6b1a12a)
+
+### Backend Continuous Integration
+![image](https://github.com/user-attachments/assets/e64bc8af-7148-4a45-b3bb-2ca89c01a9fb)
+
+### Frontend Continuous Deployment
+![image](https://github.com/user-attachments/assets/fec3dfd1-04a6-4736-ac40-d2990b979b8c)
+
+### Backend Continuous Deployment
+![image](https://github.com/user-attachments/assets/f5f91d54-c98a-4f8c-96f4-bcec616ced1d)
+
 
 ### ECR Repositories created
 ![image](https://github.com/user-attachments/assets/b4efc02d-0ce6-4f36-9cb1-ddcb6c3e331b)
