@@ -1,5 +1,33 @@
 # Movie Picture Pipeline
 
+## Screenshots
+
+### ECR Repositories created
+![image](https://github.com/user-attachments/assets/b4efc02d-0ce6-4f36-9cb1-ddcb6c3e331b)
+
+### Artifacts uploaded in ECR repositories
+![image](https://github.com/user-attachments/assets/682099a2-069d-4d3b-b791-7a1c3a62dc08)
+
+![image](https://github.com/user-attachments/assets/ca208ab9-2bc4-42ef-8d4a-edf8df18a333)
+
+### EKS Cluster Created
+![image](https://github.com/user-attachments/assets/9e8f1fa6-6ebc-4552-89ec-cc5ae589c96b)
+
+### EKS Cluster details
+![image](https://github.com/user-attachments/assets/81f8d7db-c53d-4f19-9d10-dca8fb90d370)
+
+![image](https://github.com/user-attachments/assets/3f4e8e3d-83dd-49be-ae59-2ba143bdb096)
+
+### EKS Cluster Compute Node group created
+![image](https://github.com/user-attachments/assets/095f30a1-47ed-4822-97c6-53cafdbf42a7)
+
+### EKS Cluster Working Pods
+![image](https://github.com/user-attachments/assets/452f0cbd-e5aa-4504-878e-5a0633b8ce5f)
+
+
+
+## Introduction
+
 You've been brought on as the DevOps resource for a development team that manages a web application that is a catalog of Movie Picture movies. They're in dire need of automating their development workflows in hopes of accelerating their release cycle. They'd like to use Github Actions to automate testing, building and deploying their applications to an existing Kubernetes cluster.
 
 The team's project is comprised of 2 application.
@@ -8,6 +36,7 @@ The team's project is comprised of 2 application.
 2. A backend API written in Python using the Flask framework.
 
 In the `starter` folder, you'll find 2 folders, one named `frontend` and one named `backend`, where each application's source code is maintained. Your job is to use the team's [existing documentation](#frontend-development-notes) and create CI/CD pipelines to meet the teams' needs.
+
 
 ## Deliverables
 
