@@ -1,5 +1,8 @@
 # Movie Picture Pipeline
 
+##Working example
+![image](https://github.com/user-attachments/assets/29eb26bb-14b1-4867-b5fc-e028a28703ea)
+
 All the 4 workflows are present in .github/workflows directory:
 ![image](https://github.com/user-attachments/assets/c3963db7-ab8d-416b-af14-2e5a3128eaa7)
 
